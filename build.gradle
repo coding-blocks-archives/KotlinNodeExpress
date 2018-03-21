@@ -3,6 +3,7 @@ version = "0.1.0"
 
 buildscript {
     ext.kotlin_version = '1.2.30'
+    ext.nodeOut = 'dist'
     repositories {
         mavenCentral()
     }
@@ -20,8 +21,10 @@ repositories {
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-js:$kotlin_version"
 }
-
+clean {
+    delete "$nodeOut"
+}
 compileKotlin2Js.kotlinOptions {
     moduleKind = "commonjs"
-    outputFile = "dist/index.js"
+    outputFile = "$nodeOut/index.js"
 }

@@ -4,7 +4,9 @@
   "description": "### 1. Init Node",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "gradle build",
+    "start": "node dist/index.js"
   },
   "author": "",
   "license": "ISC",
