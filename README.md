@@ -57,3 +57,14 @@ compileKotlin2Js.kotlinOptions {
 
 `src/main/kotlin`
 
+### 4. ts2kt automator
+
+Install it
+```
+npm install -g @jetbrains/ts2kt-automator
+```
+
+Get types
+
+
+

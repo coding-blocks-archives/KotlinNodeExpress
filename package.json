@@ -13,5 +13,9 @@
   "dependencies": {
     "express": "^4.16.3",
     "kotlin": "^1.2.30"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "@types/node": "^9.4.7"
   }
 }
