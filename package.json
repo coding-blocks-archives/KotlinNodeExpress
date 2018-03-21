@@ -2,7 +2,7 @@
   "name": "kot-node",
   "version": "1.0.0",
   "description": "### 1. Init Node",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
